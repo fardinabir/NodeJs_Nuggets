@@ -1,13 +1,13 @@
 const amount = 127
 
-const names = require('./names')
+const {secretName,name1} = require('./names')
+//const secretName = require('./names')
 const util = require('./util')
 
-util(names.name1)
-const os = require('os')
+//console.log(secretName)
+util(secretName)
 
 
-
+//const os = require('os')
 //util(names.secrets)
-
 //require('./util').print
