@@ -1,7 +1,7 @@
 
 
-const print = () => console.log("str")
+const print = (str) => console.log(`In util : ${str}`)
 
-//module.exports = print
+module.exports = print
 
 //print()

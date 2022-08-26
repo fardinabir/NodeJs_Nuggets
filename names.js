@@ -7,4 +7,4 @@ const secretName = 'arav'
 const print = () => console.log("str")
 console.log("In names.js")
 
-module.exports = {demo :{name2},secretName}
+module.exports = {name1,secretName}
