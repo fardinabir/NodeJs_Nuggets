@@ -6,3 +6,5 @@ const write = (text) => fs.writeFile('demo.txt',text,(err)=>{
 })
 
 module.exports = write
+
+//write("abir")

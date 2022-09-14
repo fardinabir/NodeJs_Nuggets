@@ -8,9 +8,11 @@ const rl = rdln.createInterface({
     output: process.stdout
   });
   
-rl.question('What do you think of Node.js? ', (answer) => {
+/*rl.question('What do you think of Node.js? ', (answer) => {
     frt(answer)
-    //rl.close();
-});
+    rl.close();
+});*/
 
+
+console.log(require('lodash').flattenDeep([1,[2,[3,4]]]))
 

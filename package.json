@@ -1,6 +1,25 @@
 {
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Nothing special, just some common NodeJs snippets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fardinabir/NodeJs_Nuggets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fardinabir/NodeJs_Nuggets/issues"
+  },
+  "homepage": "https://github.com/fardinabir/NodeJs_Nuggets#readme",
   "dependencies": {
-    "node-fetch": "^3.2.10",
-    "type": "module"
+    "bootstrap": "^5.2.1",
+    "lodash": "^4.17.21"
   }
 }
